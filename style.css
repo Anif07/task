@@ -161,7 +161,7 @@ a {
   .left-container {
     flex: 20%;
     padding: 0 10px;
-    width: 240px;
+    width: 230px;
   }
   .right-container {
     flex: 80%;
@@ -195,6 +195,9 @@ a {
   .back-icon i {
     font-size: 20px;
   }
+  .icons-container {
+    margin: 10px 0 5px 0;
+  }
   .icon {
     width: 30px;
     height: 30px;
@@ -203,11 +206,11 @@ a {
     font-size: 20px;
   }
   .more {
-    margin: 4px 0;
+    margin: 3px 0;
   }
   .toggle-btn button {
     top: 50px;
-    left: 237px;
+    left: 227px;
   }
 }
 @media screen and (max-width: 576px) {
