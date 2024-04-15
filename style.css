@@ -155,9 +155,13 @@ a {
 }
 
 @media screen and (max-width: 576px) {
+  body {
+    height: dvh;
+  }
   .left-container {
     flex: 20%;
     padding: 0 10px;
+    width: 240px;
   }
   .right-container {
     flex: 80%;
@@ -200,6 +204,10 @@ a {
   }
   .more {
     margin: 4px 0;
+  }
+  .toggle-btn button {
+    top: 50px;
+    left: 237px;
   }
 }
 @media screen and (max-width: 576px) {
