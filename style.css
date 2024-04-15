@@ -32,8 +32,6 @@ a {
 }
 .heading {
   margin-bottom: 20px;
-  /* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 900 */
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 550;
@@ -112,20 +110,10 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* background-image: url("./background.jpg");
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover; */
-  /* position: relative; */
-  /* background-image: radial-gradient(circle, white 5%, black 100%); */
 }
 .statue {
-  /* display: none; */
   width: 160px;
   height: auto;
-
-  /* filter: drop-shadow(80px 10px 5px black);
-  transform: rotate(45deg); */
 }
 .statue::before {
   content: "";
