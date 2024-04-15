@@ -167,11 +167,16 @@ a {
     flex: 80%;
   }
   .heading {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    margin-top: 2px;
   }
   .description h1 {
     font-size: 1.1rem;
     margin-bottom: 5px;
+  }
+  .description p {
+    font-size: 0.9rem;
   }
   .btn-1 {
     width: 150px;
@@ -210,11 +215,6 @@ a {
   }
   .toggle-btn button {
     top: 50px;
-    left: 227px;
-  }
-}
-@media screen and (max-width: 576px) {
-  .heading {
-    font-size: 1rem;
+    left: 225px;
   }
 }
