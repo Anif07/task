@@ -63,7 +63,7 @@ a {
   font-size: 25px;
 }
 .icon-text {
-  margin: 10px 0 0 0;
+  margin: 8px 0 0 0;
 }
 
 .details {
@@ -107,7 +107,7 @@ a {
 }
 .right-container {
   flex: 75%;
-  background-image: url("./background-img.png");
+  background-image: url("./Assets/background-img.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
